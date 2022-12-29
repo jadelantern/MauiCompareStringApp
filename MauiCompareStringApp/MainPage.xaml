@@ -4,7 +4,9 @@
              x:Class="MauiCompareStringApp.MainPage">
 
     <VerticalStackLayout Padding="25" BackgroundColor="Gray">
-        
+        <Label Text="Master String" FontSize="Medium"/>
+        <Entry BackgroundColor="Black" TextColor="White"/>
+        <ListView/>
     </VerticalStackLayout>
 
 </ContentPage>
