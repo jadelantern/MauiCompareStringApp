@@ -5,8 +5,10 @@
 
     <VerticalStackLayout Padding="25" BackgroundColor="Gray">
         <Label Text="Master String" FontSize="Medium"/>
-        <Entry BackgroundColor="Black" TextColor="White"/>
-        <ListView/>
+        <Entry BackgroundColor="Black" TextColor="White" FontSize="Medium" Margin="5,2,5,5"/>
+        <Label Text="Compare List" FontSize="Medium" Margin="5,25"/>
+        <ListView BackgroundColor="Black" RowHeight="10" IsEnabled="True"/>
+        <Button x:Name="GoBTN" Text="Go!" MinimumHeightRequest="10" MinimumWidthRequest="15" TextColor="#FFFFFF"/>
     </VerticalStackLayout>
 
 </ContentPage>
